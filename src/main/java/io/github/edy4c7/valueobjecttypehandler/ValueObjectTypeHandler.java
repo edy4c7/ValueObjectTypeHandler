@@ -10,7 +10,7 @@ import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 
 /**
- * あああああ
+ * MyBatis type handler for Value Object
  *
  * @param <E>
  */
