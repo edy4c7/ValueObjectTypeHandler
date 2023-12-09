@@ -54,7 +54,7 @@ public class ValueObjectTypeHandler<E> extends BaseTypeHandler<E> {
   private E getNullableResult(Object parameter) {
     try {
       var cls = parameter.getClass();
-      Object result = null;
+      Object result;
 
       if (factoryName != null) {
         final var factory = type.getMethod(factoryName, cls);

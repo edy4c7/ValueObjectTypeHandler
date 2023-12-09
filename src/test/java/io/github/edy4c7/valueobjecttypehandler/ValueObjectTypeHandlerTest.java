@@ -55,7 +55,7 @@ public class ValueObjectTypeHandlerTest {
   }
 
   @Test
-  public void shouldFailToSetParameter() throws SQLException {
+  public void shouldFailToSetParameter() {
     var errorHandler = new EnumValueTypeHandlerForErrorTest<>(TestEnum.class);
     var ps = mock(PreparedStatement.class);
     var index = 1;
